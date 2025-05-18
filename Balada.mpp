@@ -2,7 +2,7 @@
 <Production>
   <Version>3.0.226.0</Version>
   <FileName>C:\MultiPlay\Balada.mpp</FileName>
-  <LastModified>2025-04-27 5:59:37 pm</LastModified>
+  <LastModified>2025-05-18 4:37:14 pm</LastModified>
   <General>
     <Title>Balada</Title>
     <Author>Daniel Zelenka</Author>
@@ -53,7 +53,7 @@
     <Button Caption="1" CaptionColour="000000" BtnColour="FFFFFF" UID="" List="0"/>
   </HotButtons>
   <Layouts DefaultLayout="0">
-    <Layout ColumnStates="15#50,55,87,196,77,76,93,165,51,64,64,64,64,64,64#0,1,2,3,4,5,6,7,8,9,10,11,12,13,14#1,0,1,0,1,1,1,1,1,0,0,0,0,1,1" DirectEdit="0" LimitedUser="0" Name="Default Layout">
+    <Layout ColumnStates="15#50,55,87,220,77,76,93,165,51,64,64,64,64,64,64#0,1,2,3,4,5,6,7,8,9,10,11,12,13,14#1,0,1,0,1,1,1,1,1,0,0,0,0,1,1" DirectEdit="0" LimitedUser="0" Name="Default Layout">
       <Adlib ColumnStates="4#40,40,60,9#0,1,2,3#1,1,1,1"/>
       <Windows>
         <fmMain Top="0" Left="0" Height="500" Width="500" Maximised="-1"/>
@@ -63,7 +63,7 @@
 				<site dpi="96" id="fmMain.DockSite">
 					<zone kind="VERT">
 						<zone kind="HORZ" size="587" dsize="0.773386034255599">
-							<zone kind="VERT" size="269" dsize="0.189971751412429">
+							<zone kind="VERT" size="224" dsize="0.15819209039548">
 								<zone kind="PANEL" id="fmMain.dkCueControls" visible="0" size="290" dsize="0.385126162018592"/>
 								<zone kind="PANEL" id="fmMain.dkAdvance" visible="0" size="117" dsize="0.155378486055777"/>
 								<zone kind="PANEL" id="fmMain.dkClock" visible="1" size="204" dsize="0.351219512195122"/>
@@ -77,8 +77,8 @@
 								<zone kind="PANEL" id="fmMain.dkCountdownTimer" visible="0" size="72" dsize="0.0956175298804781"/>
 								<zone kind="PANEL" id="fmMain.dkVideoPreview" visible="0" size="431" dsize="0.812134628589392"/>
 							</zone>
-							<zone kind="PANEL" id="fmMain.dkCueList" visible="1" size="883" dsize="0.623587570621469" isspace="1"/>
-							<zone kind="VERT" size="264" dsize="0.186440677966102">
+							<zone kind="PANEL" id="fmMain.dkCueList" visible="1" size="926" dsize="0.653954802259887" isspace="1"/>
+							<zone kind="VERT" size="266" dsize="0.187853107344633">
 								<zone kind="PANEL" id="fmMain.dkScheduler" visible="0" size="261" dsize="0.343873517786561"/>
 								<zone kind="PANEL" id="fmMain.dkInfo" visible="0" size="765" dsize="1"/>
 								<zone kind="PANEL" id="fmMain.dkNotes" visible="1" size="587" dsize="1"/>
@@ -240,7 +240,7 @@
       <Type>6</Type>
       <Enabled>-1</Enabled>
       <Q>-1-20</Q>
-      <Description>Zvukovka Nocky 1,2</Description>
+      <Description>Zvukovka Nocka 1</Description>
       <Exclusive Mode="0" FadeTime="200"/>
       <SecondTrigger Mode="0"/>
       <Ignore FadeAll="0" StopAll="0" PauseAll="0" ResumeAll="0"/>
@@ -255,6 +255,66 @@
       <Msg Name="Mic5" Command="1" Channel="0" Data1="36" Data2="127"/>
       <Msg Name="Mic6" Command="1" Channel="0" Data1="37" Data2="127"/>
       <Msg Name="Mic7" Command="1" Channel="0" Data1="38" Data2="1"/>
+      <Msg Name="Mic8" Command="1" Channel="0" Data1="39" Data2="127"/>
+      <Msg Name="Mic9" Command="1" Channel="0" Data1="40" Data2="127"/>
+      <Msg Name="Mic10" Command="1" Channel="0" Data1="41" Data2="127"/>
+      <Msg Name="Mic11" Command="1" Channel="0" Data1="42" Data2="127"/>
+      <Msg Name="Mic12" Command="1" Channel="0" Data1="43" Data2="127"/>
+      <Msg Name="Mic13" Command="1" Channel="0" Data1="44" Data2="127"/>
+      <Msg Name="Mic14" Command="1" Channel="0" Data1="45" Data2="127"/>
+      <Msg Name="Mic15" Command="1" Channel="0" Data1="46" Data2="127"/>
+      <Msg Name="Mic16" Command="1" Channel="0" Data1="47" Data2="127"/>
+    </Cue>
+    <Cue>
+      <UID>180</UID>
+      <Type>6</Type>
+      <Enabled>-1</Enabled>
+      <Q>-1-21</Q>
+      <Description>Zvukovka Nocka 1 bez holek</Description>
+      <Exclusive Mode="0" FadeTime="200"/>
+      <SecondTrigger Mode="0"/>
+      <Ignore FadeAll="0" StopAll="0" PauseAll="0" ResumeAll="0"/>
+      <Wait Pre="0" Post="0"/>
+      <Appearance BGColour="000000" FontColour="FFFFFF"/>
+      <Advance Action="1" Target="0"/>
+      <Patch>0</Patch>
+      <Msg Name="Mic1" Command="1" Channel="0" Data1="32" Data2="127"/>
+      <Msg Name="Mic2" Command="1" Channel="0" Data1="33" Data2="127"/>
+      <Msg Name="Mic3" Command="1" Channel="0" Data1="34" Data2="127"/>
+      <Msg Name="Mic4" Command="1" Channel="0" Data1="35" Data2="127"/>
+      <Msg Name="Mic5" Command="1" Channel="0" Data1="36" Data2="127"/>
+      <Msg Name="Mic6" Command="1" Channel="0" Data1="37" Data2="127"/>
+      <Msg Name="Mic7" Command="1" Channel="0" Data1="38" Data2="1"/>
+      <Msg Name="Mic8" Command="1" Channel="0" Data1="39" Data2="127"/>
+      <Msg Name="Mic9" Command="1" Channel="0" Data1="40" Data2="127"/>
+      <Msg Name="Mic10" Command="1" Channel="0" Data1="41" Data2="127"/>
+      <Msg Name="Mic11" Command="1" Channel="0" Data1="42" Data2="127"/>
+      <Msg Name="Mic12" Command="1" Channel="0" Data1="43" Data2="127"/>
+      <Msg Name="Mic13" Command="1" Channel="0" Data1="44" Data2="127"/>
+      <Msg Name="Mic14" Command="1" Channel="0" Data1="45" Data2="127"/>
+      <Msg Name="Mic15" Command="1" Channel="0" Data1="46" Data2="127"/>
+      <Msg Name="Mic16" Command="1" Channel="0" Data1="47" Data2="127"/>
+    </Cue>
+    <Cue>
+      <UID>25</UID>
+      <Type>6</Type>
+      <Enabled>-1</Enabled>
+      <Q>-1-25</Q>
+      <Description>Zvukovka Nocka 2</Description>
+      <Exclusive Mode="0" FadeTime="200"/>
+      <SecondTrigger Mode="0"/>
+      <Ignore FadeAll="0" StopAll="0" PauseAll="0" ResumeAll="0"/>
+      <Wait Pre="0" Post="0"/>
+      <Appearance BGColour="000000" FontColour="FFFFFF"/>
+      <Advance Action="1" Target="0"/>
+      <Patch>0</Patch>
+      <Msg Name="Mic1" Command="1" Channel="0" Data1="32" Data2="127"/>
+      <Msg Name="Mic2" Command="1" Channel="0" Data1="33" Data2="127"/>
+      <Msg Name="Mic3" Command="1" Channel="0" Data1="34" Data2="1"/>
+      <Msg Name="Mic4" Command="1" Channel="0" Data1="35" Data2="1"/>
+      <Msg Name="Mic5" Command="1" Channel="0" Data1="36" Data2="127"/>
+      <Msg Name="Mic6" Command="1" Channel="0" Data1="37" Data2="1"/>
+      <Msg Name="Mic7" Command="1" Channel="0" Data1="38" Data2="127"/>
       <Msg Name="Mic8" Command="1" Channel="0" Data1="39" Data2="127"/>
       <Msg Name="Mic9" Command="1" Channel="0" Data1="40" Data2="127"/>
       <Msg Name="Mic10" Command="1" Channel="0" Data1="41" Data2="127"/>
@@ -282,36 +342,6 @@
       <Msg Name="Mic2" Command="1" Channel="0" Data1="33" Data2="127"/>
       <Msg Name="Mic3" Command="1" Channel="0" Data1="34" Data2="1"/>
       <Msg Name="Mic4" Command="1" Channel="0" Data1="35" Data2="1"/>
-      <Msg Name="Mic5" Command="1" Channel="0" Data1="36" Data2="127"/>
-      <Msg Name="Mic6" Command="1" Channel="0" Data1="37" Data2="127"/>
-      <Msg Name="Mic7" Command="1" Channel="0" Data1="38" Data2="127"/>
-      <Msg Name="Mic8" Command="1" Channel="0" Data1="39" Data2="127"/>
-      <Msg Name="Mic9" Command="1" Channel="0" Data1="40" Data2="127"/>
-      <Msg Name="Mic10" Command="1" Channel="0" Data1="41" Data2="127"/>
-      <Msg Name="Mic11" Command="1" Channel="0" Data1="42" Data2="127"/>
-      <Msg Name="Mic12" Command="1" Channel="0" Data1="43" Data2="127"/>
-      <Msg Name="Mic13" Command="1" Channel="0" Data1="44" Data2="127"/>
-      <Msg Name="Mic14" Command="1" Channel="0" Data1="45" Data2="127"/>
-      <Msg Name="Mic15" Command="1" Channel="0" Data1="46" Data2="127"/>
-      <Msg Name="Mic16" Command="1" Channel="0" Data1="47" Data2="127"/>
-    </Cue>
-    <Cue>
-      <UID>155</UID>
-      <Type>6</Type>
-      <Enabled>-1</Enabled>
-      <Q>-1-31</Q>
-      <Description>Z kokavy vokal</Description>
-      <Exclusive Mode="0" FadeTime="200"/>
-      <SecondTrigger Mode="0"/>
-      <Ignore FadeAll="0" StopAll="0" PauseAll="0" ResumeAll="0"/>
-      <Wait Pre="0" Post="0"/>
-      <Appearance BGColour="000000" FontColour="FFFFFF"/>
-      <Advance Action="1" Target="0"/>
-      <Patch>0</Patch>
-      <Msg Name="Mic1" Command="1" Channel="0" Data1="32" Data2="127"/>
-      <Msg Name="Mic2" Command="1" Channel="0" Data1="33" Data2="127"/>
-      <Msg Name="Mic3" Command="1" Channel="0" Data1="34" Data2="127"/>
-      <Msg Name="Mic4" Command="1" Channel="0" Data1="35" Data2="127"/>
       <Msg Name="Mic5" Command="1" Channel="0" Data1="36" Data2="127"/>
       <Msg Name="Mic6" Command="1" Channel="0" Data1="37" Data2="127"/>
       <Msg Name="Mic7" Command="1" Channel="0" Data1="38" Data2="127"/>
@@ -626,6 +656,94 @@
       <Msg Name="Mic16" Command="1" Channel="0" Data1="47" Data2="1"/>
     </Cue>
     <Cue>
+      <UID>125</UID>
+      <Type>6</Type>
+      <Enabled>-1</Enabled>
+      <Q>.1.58</Q>
+      <Description>Zvukovka Zdeněk Rajm</Description>
+      <Exclusive Mode="0" FadeTime="200"/>
+      <SecondTrigger Mode="0"/>
+      <Ignore FadeAll="0" StopAll="0" PauseAll="0" ResumeAll="0"/>
+      <Wait Pre="0" Post="0"/>
+      <Appearance BGColour="000000" FontColour="FFFFFF"/>
+      <Advance Action="1" Target="0"/>
+      <Patch>0</Patch>
+      <Msg Name="Mic1" Command="1" Channel="0" Data1="32" Data2="127"/>
+      <Msg Name="Mic2" Command="1" Channel="0" Data1="33" Data2="127"/>
+      <Msg Name="Mic3" Command="1" Channel="0" Data1="34" Data2="127"/>
+      <Msg Name="Mic4" Command="1" Channel="0" Data1="35" Data2="127"/>
+      <Msg Name="Mic5" Command="1" Channel="0" Data1="36" Data2="127"/>
+      <Msg Name="Mic6" Command="1" Channel="0" Data1="37" Data2="127"/>
+      <Msg Name="Mic7" Command="1" Channel="0" Data1="38" Data2="127"/>
+      <Msg Name="Mic8" Command="1" Channel="0" Data1="39" Data2="1"/>
+      <Msg Name="Mic9" Command="1" Channel="0" Data1="40" Data2="127"/>
+      <Msg Name="Mic10" Command="1" Channel="0" Data1="41" Data2="127"/>
+      <Msg Name="Mic11" Command="1" Channel="0" Data1="42" Data2="127"/>
+      <Msg Name="Mic12" Command="1" Channel="0" Data1="43" Data2="127"/>
+      <Msg Name="Mic13" Command="1" Channel="0" Data1="44" Data2="127"/>
+      <Msg Name="Mic14" Command="1" Channel="0" Data1="45" Data2="127"/>
+      <Msg Name="Mic15" Command="1" Channel="0" Data1="46" Data2="127"/>
+      <Msg Name="Mic16" Command="1" Channel="0" Data1="47" Data2="127"/>
+    </Cue>
+    <Cue>
+      <UID>148</UID>
+      <Type>6</Type>
+      <Enabled>-1</Enabled>
+      <Description>Zvukovka Luděk Grabec</Description>
+      <Exclusive Mode="0" FadeTime="200"/>
+      <SecondTrigger Mode="0"/>
+      <Ignore FadeAll="0" StopAll="0" PauseAll="0" ResumeAll="0"/>
+      <Wait Pre="0" Post="0"/>
+      <Appearance BGColour="000000" FontColour="FFFFFF"/>
+      <Advance Action="1" Target="0"/>
+      <Patch>0</Patch>
+      <Msg Name="Mic1" Command="1" Channel="0" Data1="32" Data2="127"/>
+      <Msg Name="Mic2" Command="1" Channel="0" Data1="33" Data2="127"/>
+      <Msg Name="Mic3" Command="1" Channel="0" Data1="34" Data2="127"/>
+      <Msg Name="Mic4" Command="1" Channel="0" Data1="35" Data2="127"/>
+      <Msg Name="Mic5" Command="1" Channel="0" Data1="36" Data2="127"/>
+      <Msg Name="Mic6" Command="1" Channel="0" Data1="37" Data2="127"/>
+      <Msg Name="Mic7" Command="1" Channel="0" Data1="38" Data2="127"/>
+      <Msg Name="Mic8" Command="1" Channel="0" Data1="39" Data2="127"/>
+      <Msg Name="Mic9" Command="1" Channel="0" Data1="40" Data2="127"/>
+      <Msg Name="Mic10" Command="1" Channel="0" Data1="41" Data2="127"/>
+      <Msg Name="Mic11" Command="1" Channel="0" Data1="42" Data2="127"/>
+      <Msg Name="Mic12" Command="1" Channel="0" Data1="43" Data2="127"/>
+      <Msg Name="Mic13" Command="1" Channel="0" Data1="44" Data2="1"/>
+      <Msg Name="Mic14" Command="1" Channel="0" Data1="45" Data2="127"/>
+      <Msg Name="Mic15" Command="1" Channel="0" Data1="46" Data2="127"/>
+      <Msg Name="Mic16" Command="1" Channel="0" Data1="47" Data2="127"/>
+    </Cue>
+    <Cue>
+      <UID>155</UID>
+      <Type>6</Type>
+      <Enabled>-1</Enabled>
+      <Description>Zvukovka Slávek Vejnar</Description>
+      <Exclusive Mode="0" FadeTime="200"/>
+      <SecondTrigger Mode="0"/>
+      <Ignore FadeAll="0" StopAll="0" PauseAll="0" ResumeAll="0"/>
+      <Wait Pre="0" Post="0"/>
+      <Appearance BGColour="000000" FontColour="FFFFFF"/>
+      <Advance Action="1" Target="0"/>
+      <Patch>0</Patch>
+      <Msg Name="Mic1" Command="1" Channel="0" Data1="32" Data2="127"/>
+      <Msg Name="Mic2" Command="1" Channel="0" Data1="33" Data2="127"/>
+      <Msg Name="Mic3" Command="1" Channel="0" Data1="34" Data2="127"/>
+      <Msg Name="Mic4" Command="1" Channel="0" Data1="35" Data2="127"/>
+      <Msg Name="Mic5" Command="1" Channel="0" Data1="36" Data2="127"/>
+      <Msg Name="Mic6" Command="1" Channel="0" Data1="37" Data2="1"/>
+      <Msg Name="Mic7" Command="1" Channel="0" Data1="38" Data2="127"/>
+      <Msg Name="Mic8" Command="1" Channel="0" Data1="39" Data2="127"/>
+      <Msg Name="Mic9" Command="1" Channel="0" Data1="40" Data2="127"/>
+      <Msg Name="Mic10" Command="1" Channel="0" Data1="41" Data2="127"/>
+      <Msg Name="Mic11" Command="1" Channel="0" Data1="42" Data2="127"/>
+      <Msg Name="Mic12" Command="1" Channel="0" Data1="43" Data2="127"/>
+      <Msg Name="Mic13" Command="1" Channel="0" Data1="44" Data2="127"/>
+      <Msg Name="Mic14" Command="1" Channel="0" Data1="45" Data2="127"/>
+      <Msg Name="Mic15" Command="1" Channel="0" Data1="46" Data2="127"/>
+      <Msg Name="Mic16" Command="1" Channel="0" Data1="47" Data2="127"/>
+    </Cue>
+    <Cue>
       <UID>168</UID>
       <Type>6</Type>
       <Enabled>-1</Enabled>
@@ -650,6 +768,35 @@
       <Msg Name="Mic10" Command="1" Channel="0" Data1="41" Data2="127"/>
       <Msg Name="Mic11" Command="1" Channel="0" Data1="42" Data2="127"/>
       <Msg Name="Mic12" Command="1" Channel="0" Data1="43" Data2="127"/>
+      <Msg Name="Mic13" Command="1" Channel="0" Data1="44" Data2="127"/>
+      <Msg Name="Mic14" Command="1" Channel="0" Data1="45" Data2="127"/>
+      <Msg Name="Mic15" Command="1" Channel="0" Data1="46" Data2="127"/>
+      <Msg Name="Mic16" Command="1" Channel="0" Data1="47" Data2="127"/>
+    </Cue>
+    <Cue>
+      <UID>179</UID>
+      <Type>6</Type>
+      <Enabled>-1</Enabled>
+      <Description>Zvukovka Erik</Description>
+      <Exclusive Mode="0" FadeTime="200"/>
+      <SecondTrigger Mode="0"/>
+      <Ignore FadeAll="0" StopAll="0" PauseAll="0" ResumeAll="0"/>
+      <Wait Pre="0" Post="0"/>
+      <Appearance BGColour="000000" FontColour="FFFFFF"/>
+      <Advance Action="1" Target="0"/>
+      <Patch>0</Patch>
+      <Msg Name="Mic1" Command="1" Channel="0" Data1="32" Data2="127"/>
+      <Msg Name="Mic2" Command="1" Channel="0" Data1="33" Data2="127"/>
+      <Msg Name="Mic3" Command="1" Channel="0" Data1="34" Data2="127"/>
+      <Msg Name="Mic4" Command="1" Channel="0" Data1="35" Data2="127"/>
+      <Msg Name="Mic5" Command="1" Channel="0" Data1="36" Data2="127"/>
+      <Msg Name="Mic6" Command="1" Channel="0" Data1="37" Data2="127"/>
+      <Msg Name="Mic7" Command="1" Channel="0" Data1="38" Data2="127"/>
+      <Msg Name="Mic8" Command="1" Channel="0" Data1="39" Data2="127"/>
+      <Msg Name="Mic9" Command="1" Channel="0" Data1="40" Data2="127"/>
+      <Msg Name="Mic10" Command="1" Channel="0" Data1="41" Data2="127"/>
+      <Msg Name="Mic11" Command="1" Channel="0" Data1="42" Data2="127"/>
+      <Msg Name="Mic12" Command="1" Channel="0" Data1="43" Data2="1"/>
       <Msg Name="Mic13" Command="1" Channel="0" Data1="44" Data2="127"/>
       <Msg Name="Mic14" Command="1" Channel="0" Data1="45" Data2="127"/>
       <Msg Name="Mic15" Command="1" Channel="0" Data1="46" Data2="127"/>
@@ -1828,6 +1975,36 @@
       <Msg Name="Mic16" Command="1" Channel="0" Data1="47" Data2="127"/>
     </Cue>
     <Cue>
+      <UID>186</UID>
+      <Type>6</Type>
+      <Enabled>-1</Enabled>
+      <Q>5-15</Q>
+      <Description>Text - bez Nikoli</Description>
+      <Exclusive Mode="0" FadeTime="200"/>
+      <SecondTrigger Mode="0"/>
+      <Ignore FadeAll="0" StopAll="0" PauseAll="0" ResumeAll="0"/>
+      <Wait Pre="0" Post="0"/>
+      <Appearance BGColour="000000" FontColour="FFFFFF"/>
+      <Advance Action="1" Target="0"/>
+      <Patch>0</Patch>
+      <Msg Name="Mic1" Command="1" Channel="0" Data1="32" Data2="127"/>
+      <Msg Name="Mic2" Command="1" Channel="0" Data1="33" Data2="127"/>
+      <Msg Name="Mic3" Command="1" Channel="0" Data1="34" Data2="127"/>
+      <Msg Name="Mic4" Command="1" Channel="0" Data1="35" Data2="127"/>
+      <Msg Name="Mic5" Command="1" Channel="0" Data1="36" Data2="1"/>
+      <Msg Name="Mic6" Command="1" Channel="0" Data1="37" Data2="127"/>
+      <Msg Name="Mic7" Command="1" Channel="0" Data1="38" Data2="1"/>
+      <Msg Name="Mic8" Command="1" Channel="0" Data1="39" Data2="127"/>
+      <Msg Name="Mic9" Command="1" Channel="0" Data1="40" Data2="127"/>
+      <Msg Name="Mic10" Command="1" Channel="0" Data1="41" Data2="1"/>
+      <Msg Name="Mic11" Command="1" Channel="0" Data1="42" Data2="127"/>
+      <Msg Name="Mic12" Command="1" Channel="0" Data1="43" Data2="127"/>
+      <Msg Name="Mic13" Command="1" Channel="0" Data1="44" Data2="127"/>
+      <Msg Name="Mic14" Command="1" Channel="0" Data1="45" Data2="127"/>
+      <Msg Name="Mic15" Command="1" Channel="0" Data1="46" Data2="127"/>
+      <Msg Name="Mic16" Command="1" Channel="0" Data1="47" Data2="127"/>
+    </Cue>
+    <Cue>
       <UID>45</UID>
       <Type>6</Type>
       <Enabled>-1</Enabled>
@@ -2608,6 +2785,36 @@
       <Msg Name="Mic16" Command="1" Channel="0" Data1="47" Data2="127"/>
     </Cue>
     <Cue>
+      <UID>187</UID>
+      <Type>6</Type>
+      <Enabled>-1</Enabled>
+      <Q>10-65</Q>
+      <Description>MUTE ALL</Description>
+      <Exclusive Mode="0" FadeTime="200"/>
+      <SecondTrigger Mode="0"/>
+      <Ignore FadeAll="0" StopAll="0" PauseAll="0" ResumeAll="0"/>
+      <Wait Pre="0" Post="0"/>
+      <Appearance BGColour="000000" FontColour="FFFFFF"/>
+      <Advance Action="1" Target="0"/>
+      <Patch>0</Patch>
+      <Msg Name="Mic1" Command="1" Channel="0" Data1="32" Data2="127"/>
+      <Msg Name="Mic2" Command="1" Channel="0" Data1="33" Data2="127"/>
+      <Msg Name="Mic3" Command="1" Channel="0" Data1="34" Data2="127"/>
+      <Msg Name="Mic4" Command="1" Channel="0" Data1="35" Data2="127"/>
+      <Msg Name="Mic5" Command="1" Channel="0" Data1="36" Data2="127"/>
+      <Msg Name="Mic6" Command="1" Channel="0" Data1="37" Data2="127"/>
+      <Msg Name="Mic7" Command="1" Channel="0" Data1="38" Data2="127"/>
+      <Msg Name="Mic8" Command="1" Channel="0" Data1="39" Data2="127"/>
+      <Msg Name="Mic9" Command="1" Channel="0" Data1="40" Data2="127"/>
+      <Msg Name="Mic10" Command="1" Channel="0" Data1="41" Data2="127"/>
+      <Msg Name="Mic11" Command="1" Channel="0" Data1="42" Data2="127"/>
+      <Msg Name="Mic12" Command="1" Channel="0" Data1="43" Data2="127"/>
+      <Msg Name="Mic13" Command="1" Channel="0" Data1="44" Data2="127"/>
+      <Msg Name="Mic14" Command="1" Channel="0" Data1="45" Data2="127"/>
+      <Msg Name="Mic15" Command="1" Channel="0" Data1="46" Data2="127"/>
+      <Msg Name="Mic16" Command="1" Channel="0" Data1="47" Data2="127"/>
+    </Cue>
+    <Cue>
       <UID>86</UID>
       <Type>6</Type>
       <Enabled>-1</Enabled>
@@ -2668,6 +2875,36 @@
       <Msg Name="Mic16" Command="1" Channel="0" Data1="47" Data2="127"/>
     </Cue>
     <Cue>
+      <UID>188</UID>
+      <Type>6</Type>
+      <Enabled>-1</Enabled>
+      <Q>10-85</Q>
+      <Description>MUTE ALL</Description>
+      <Exclusive Mode="0" FadeTime="200"/>
+      <SecondTrigger Mode="0"/>
+      <Ignore FadeAll="0" StopAll="0" PauseAll="0" ResumeAll="0"/>
+      <Wait Pre="0" Post="0"/>
+      <Appearance BGColour="000000" FontColour="FFFFFF"/>
+      <Advance Action="1" Target="0"/>
+      <Patch>0</Patch>
+      <Msg Name="Mic1" Command="1" Channel="0" Data1="32" Data2="127"/>
+      <Msg Name="Mic2" Command="1" Channel="0" Data1="33" Data2="127"/>
+      <Msg Name="Mic3" Command="1" Channel="0" Data1="34" Data2="127"/>
+      <Msg Name="Mic4" Command="1" Channel="0" Data1="35" Data2="127"/>
+      <Msg Name="Mic5" Command="1" Channel="0" Data1="36" Data2="127"/>
+      <Msg Name="Mic6" Command="1" Channel="0" Data1="37" Data2="127"/>
+      <Msg Name="Mic7" Command="1" Channel="0" Data1="38" Data2="127"/>
+      <Msg Name="Mic8" Command="1" Channel="0" Data1="39" Data2="127"/>
+      <Msg Name="Mic9" Command="1" Channel="0" Data1="40" Data2="127"/>
+      <Msg Name="Mic10" Command="1" Channel="0" Data1="41" Data2="127"/>
+      <Msg Name="Mic11" Command="1" Channel="0" Data1="42" Data2="127"/>
+      <Msg Name="Mic12" Command="1" Channel="0" Data1="43" Data2="127"/>
+      <Msg Name="Mic13" Command="1" Channel="0" Data1="44" Data2="127"/>
+      <Msg Name="Mic14" Command="1" Channel="0" Data1="45" Data2="127"/>
+      <Msg Name="Mic15" Command="1" Channel="0" Data1="46" Data2="127"/>
+      <Msg Name="Mic16" Command="1" Channel="0" Data1="47" Data2="127"/>
+    </Cue>
+    <Cue>
       <UID>65</UID>
       <Type>6</Type>
       <Enabled>-1</Enabled>
@@ -2702,7 +2939,37 @@
       <Type>6</Type>
       <Enabled>-1</Enabled>
       <Q>10-100</Q>
-      <Description>Tam nahoře na tom kopci</Description>
+      <Description>Tam nahoře na tom kopci - Eržika</Description>
+      <Exclusive Mode="0" FadeTime="200"/>
+      <SecondTrigger Mode="0"/>
+      <Ignore FadeAll="0" StopAll="0" PauseAll="0" ResumeAll="0"/>
+      <Wait Pre="0" Post="0"/>
+      <Appearance BGColour="000000" FontColour="FFFFFF"/>
+      <Advance Action="1" Target="0"/>
+      <Patch>0</Patch>
+      <Msg Name="Mic1" Command="1" Channel="0" Data1="32" Data2="127"/>
+      <Msg Name="Mic2" Command="1" Channel="0" Data1="33" Data2="1"/>
+      <Msg Name="Mic3" Command="1" Channel="0" Data1="34" Data2="127"/>
+      <Msg Name="Mic4" Command="1" Channel="0" Data1="35" Data2="127"/>
+      <Msg Name="Mic5" Command="1" Channel="0" Data1="36" Data2="127"/>
+      <Msg Name="Mic6" Command="1" Channel="0" Data1="37" Data2="127"/>
+      <Msg Name="Mic7" Command="1" Channel="0" Data1="38" Data2="127"/>
+      <Msg Name="Mic8" Command="1" Channel="0" Data1="39" Data2="127"/>
+      <Msg Name="Mic9" Command="1" Channel="0" Data1="40" Data2="127"/>
+      <Msg Name="Mic10" Command="1" Channel="0" Data1="41" Data2="127"/>
+      <Msg Name="Mic11" Command="1" Channel="0" Data1="42" Data2="127"/>
+      <Msg Name="Mic12" Command="1" Channel="0" Data1="43" Data2="127"/>
+      <Msg Name="Mic13" Command="1" Channel="0" Data1="44" Data2="127"/>
+      <Msg Name="Mic14" Command="1" Channel="0" Data1="45" Data2="127"/>
+      <Msg Name="Mic15" Command="1" Channel="0" Data1="46" Data2="127"/>
+      <Msg Name="Mic16" Command="1" Channel="0" Data1="47" Data2="127"/>
+    </Cue>
+    <Cue>
+      <UID>189</UID>
+      <Type>6</Type>
+      <Enabled>-1</Enabled>
+      <Q>10-105</Q>
+      <Description>Tam nahoře na tom kopci - všichni</Description>
       <Exclusive Mode="0" FadeTime="200"/>
       <SecondTrigger Mode="0"/>
       <Ignore FadeAll="0" StopAll="0" PauseAll="0" ResumeAll="0"/>
@@ -2991,7 +3258,7 @@
       <Msg Name="Mic9" Command="1" Channel="0" Data1="40" Data2="1"/>
       <Msg Name="Mic10" Command="1" Channel="0" Data1="41" Data2="1"/>
       <Msg Name="Mic11" Command="1" Channel="0" Data1="42" Data2="1"/>
-      <Msg Name="Mic12" Command="1" Channel="0" Data1="43" Data2="127"/>
+      <Msg Name="Mic12" Command="1" Channel="0" Data1="43" Data2="1"/>
       <Msg Name="Mic13" Command="1" Channel="0" Data1="44" Data2="1"/>
       <Msg Name="Mic14" Command="1" Channel="0" Data1="45" Data2="1"/>
       <Msg Name="Mic15" Command="1" Channel="0" Data1="46" Data2="1"/>
@@ -3431,7 +3698,37 @@
       <Advance Action="1" Target="0"/>
       <Patch>0</Patch>
       <Msg Name="Mic1" Command="1" Channel="0" Data1="32" Data2="127"/>
-      <Msg Name="Mic2" Command="1" Channel="0" Data1="33" Data2="2"/>
+      <Msg Name="Mic2" Command="1" Channel="0" Data1="33" Data2="127"/>
+      <Msg Name="Mic3" Command="1" Channel="0" Data1="34" Data2="127"/>
+      <Msg Name="Mic4" Command="1" Channel="0" Data1="35" Data2="127"/>
+      <Msg Name="Mic5" Command="1" Channel="0" Data1="36" Data2="127"/>
+      <Msg Name="Mic6" Command="1" Channel="0" Data1="37" Data2="127"/>
+      <Msg Name="Mic7" Command="1" Channel="0" Data1="38" Data2="1"/>
+      <Msg Name="Mic8" Command="1" Channel="0" Data1="39" Data2="1"/>
+      <Msg Name="Mic9" Command="1" Channel="0" Data1="40" Data2="127"/>
+      <Msg Name="Mic10" Command="1" Channel="0" Data1="41" Data2="127"/>
+      <Msg Name="Mic11" Command="1" Channel="0" Data1="42" Data2="127"/>
+      <Msg Name="Mic12" Command="1" Channel="0" Data1="43" Data2="127"/>
+      <Msg Name="Mic13" Command="1" Channel="0" Data1="44" Data2="127"/>
+      <Msg Name="Mic14" Command="1" Channel="0" Data1="45" Data2="127"/>
+      <Msg Name="Mic15" Command="1" Channel="0" Data1="46" Data2="127"/>
+      <Msg Name="Mic16" Command="1" Channel="0" Data1="47" Data2="127"/>
+    </Cue>
+    <Cue>
+      <UID>185</UID>
+      <Type>6</Type>
+      <Enabled>-1</Enabled>
+      <Q>17-15</Q>
+      <Description>Text s Eržikou</Description>
+      <Exclusive Mode="0" FadeTime="200"/>
+      <SecondTrigger Mode="0"/>
+      <Ignore FadeAll="0" StopAll="0" PauseAll="0" ResumeAll="0"/>
+      <Wait Pre="0" Post="0"/>
+      <Appearance BGColour="000000" FontColour="FFFFFF"/>
+      <Advance Action="1" Target="0"/>
+      <Patch>0</Patch>
+      <Msg Name="Mic1" Command="1" Channel="0" Data1="32" Data2="127"/>
+      <Msg Name="Mic2" Command="1" Channel="0" Data1="33" Data2="1"/>
       <Msg Name="Mic3" Command="1" Channel="0" Data1="34" Data2="127"/>
       <Msg Name="Mic4" Command="1" Channel="0" Data1="35" Data2="127"/>
       <Msg Name="Mic5" Command="1" Channel="0" Data1="36" Data2="127"/>
@@ -3461,18 +3758,18 @@
       <Advance Action="1" Target="0"/>
       <Patch>0</Patch>
       <Msg Name="Mic1" Command="1" Channel="0" Data1="32" Data2="127"/>
-      <Msg Name="Mic2" Command="1" Channel="0" Data1="33" Data2="1"/>
+      <Msg Name="Mic2" Command="1" Channel="0" Data1="33" Data2="127"/>
       <Msg Name="Mic3" Command="1" Channel="0" Data1="34" Data2="127"/>
       <Msg Name="Mic4" Command="1" Channel="0" Data1="35" Data2="127"/>
-      <Msg Name="Mic5" Command="1" Channel="0" Data1="36" Data2="1"/>
+      <Msg Name="Mic5" Command="1" Channel="0" Data1="36" Data2="127"/>
       <Msg Name="Mic6" Command="1" Channel="0" Data1="37" Data2="127"/>
-      <Msg Name="Mic7" Command="1" Channel="0" Data1="38" Data2="1"/>
+      <Msg Name="Mic7" Command="1" Channel="0" Data1="38" Data2="127"/>
       <Msg Name="Mic8" Command="1" Channel="0" Data1="39" Data2="1"/>
-      <Msg Name="Mic9" Command="1" Channel="0" Data1="40" Data2="1"/>
+      <Msg Name="Mic9" Command="1" Channel="0" Data1="40" Data2="127"/>
       <Msg Name="Mic10" Command="1" Channel="0" Data1="41" Data2="127"/>
       <Msg Name="Mic11" Command="1" Channel="0" Data1="42" Data2="127"/>
       <Msg Name="Mic12" Command="1" Channel="0" Data1="43" Data2="127"/>
-      <Msg Name="Mic13" Command="1" Channel="0" Data1="44" Data2="127"/>
+      <Msg Name="Mic13" Command="1" Channel="0" Data1="44" Data2="1"/>
       <Msg Name="Mic14" Command="1" Channel="0" Data1="45" Data2="127"/>
       <Msg Name="Mic15" Command="1" Channel="0" Data1="46" Data2="127"/>
       <Msg Name="Mic16" Command="1" Channel="0" Data1="47" Data2="127"/>
@@ -3491,12 +3788,12 @@
       <Advance Action="1" Target="0"/>
       <Patch>0</Patch>
       <Msg Name="Mic1" Command="1" Channel="0" Data1="32" Data2="127"/>
-      <Msg Name="Mic2" Command="1" Channel="0" Data1="33" Data2="1"/>
+      <Msg Name="Mic2" Command="1" Channel="0" Data1="33" Data2="127"/>
       <Msg Name="Mic3" Command="1" Channel="0" Data1="34" Data2="127"/>
       <Msg Name="Mic4" Command="1" Channel="0" Data1="35" Data2="127"/>
       <Msg Name="Mic5" Command="1" Channel="0" Data1="36" Data2="1"/>
       <Msg Name="Mic6" Command="1" Channel="0" Data1="37" Data2="127"/>
-      <Msg Name="Mic7" Command="1" Channel="0" Data1="38" Data2="1"/>
+      <Msg Name="Mic7" Command="1" Channel="0" Data1="38" Data2="127"/>
       <Msg Name="Mic8" Command="1" Channel="0" Data1="39" Data2="1"/>
       <Msg Name="Mic9" Command="1" Channel="0" Data1="40" Data2="127"/>
       <Msg Name="Mic10" Command="1" Channel="0" Data1="41" Data2="127"/>
@@ -3651,7 +3948,7 @@
       <Msg Name="Mic10" Command="1" Channel="0" Data1="41" Data2="127"/>
       <Msg Name="Mic11" Command="1" Channel="0" Data1="42" Data2="127"/>
       <Msg Name="Mic12" Command="1" Channel="0" Data1="43" Data2="127"/>
-      <Msg Name="Mic13" Command="1" Channel="0" Data1="44" Data2="127"/>
+      <Msg Name="Mic13" Command="1" Channel="0" Data1="44" Data2="1"/>
       <Msg Name="Mic14" Command="1" Channel="0" Data1="45" Data2="127"/>
       <Msg Name="Mic15" Command="1" Channel="0" Data1="46" Data2="127"/>
       <Msg Name="Mic16" Command="1" Channel="0" Data1="47" Data2="127"/>
@@ -3789,7 +4086,7 @@
       <Appearance BGColour="000000" FontColour="FFFFFF"/>
       <Advance Action="1" Target="0"/>
       <Patch>0</Patch>
-      <Msg Name="Mic1" Command="1" Channel="0" Data1="32" Data2="127"/>
+      <Msg Name="Mic1" Command="1" Channel="0" Data1="32" Data2="1"/>
       <Msg Name="Mic2" Command="1" Channel="0" Data1="33" Data2="127"/>
       <Msg Name="Mic3" Command="1" Channel="0" Data1="34" Data2="127"/>
       <Msg Name="Mic4" Command="1" Channel="0" Data1="35" Data2="127"/>
@@ -3812,6 +4109,66 @@
       <Enabled>-1</Enabled>
       <Q>18-80</Q>
       <Description>Text - Stůj</Description>
+      <Exclusive Mode="0" FadeTime="200"/>
+      <SecondTrigger Mode="0"/>
+      <Ignore FadeAll="0" StopAll="0" PauseAll="0" ResumeAll="0"/>
+      <Wait Pre="0" Post="0"/>
+      <Appearance BGColour="000000" FontColour="FFFFFF"/>
+      <Advance Action="1" Target="0"/>
+      <Patch>0</Patch>
+      <Msg Name="Mic1" Command="1" Channel="0" Data1="32" Data2="1"/>
+      <Msg Name="Mic2" Command="1" Channel="0" Data1="33" Data2="127"/>
+      <Msg Name="Mic3" Command="1" Channel="0" Data1="34" Data2="127"/>
+      <Msg Name="Mic4" Command="1" Channel="0" Data1="35" Data2="127"/>
+      <Msg Name="Mic5" Command="1" Channel="0" Data1="36" Data2="1"/>
+      <Msg Name="Mic6" Command="1" Channel="0" Data1="37" Data2="127"/>
+      <Msg Name="Mic7" Command="1" Channel="0" Data1="38" Data2="1"/>
+      <Msg Name="Mic8" Command="1" Channel="0" Data1="39" Data2="127"/>
+      <Msg Name="Mic9" Command="1" Channel="0" Data1="40" Data2="127"/>
+      <Msg Name="Mic10" Command="1" Channel="0" Data1="41" Data2="127"/>
+      <Msg Name="Mic11" Command="1" Channel="0" Data1="42" Data2="127"/>
+      <Msg Name="Mic12" Command="1" Channel="0" Data1="43" Data2="127"/>
+      <Msg Name="Mic13" Command="1" Channel="0" Data1="44" Data2="1"/>
+      <Msg Name="Mic14" Command="1" Channel="0" Data1="45" Data2="127"/>
+      <Msg Name="Mic15" Command="1" Channel="0" Data1="46" Data2="127"/>
+      <Msg Name="Mic16" Command="1" Channel="0" Data1="47" Data2="127"/>
+    </Cue>
+    <Cue>
+      <UID>181</UID>
+      <Type>6</Type>
+      <Enabled>-1</Enabled>
+      <Q>18-85</Q>
+      <Description>Jede forman dolinou</Description>
+      <Exclusive Mode="0" FadeTime="200"/>
+      <SecondTrigger Mode="0"/>
+      <Ignore FadeAll="0" StopAll="0" PauseAll="0" ResumeAll="0"/>
+      <Wait Pre="0" Post="0"/>
+      <Appearance BGColour="000000" FontColour="FFFFFF"/>
+      <Advance Action="1" Target="0"/>
+      <Patch>0</Patch>
+      <Msg Name="Mic1" Command="1" Channel="0" Data1="32" Data2="1"/>
+      <Msg Name="Mic2" Command="1" Channel="0" Data1="33" Data2="127"/>
+      <Msg Name="Mic3" Command="1" Channel="0" Data1="34" Data2="127"/>
+      <Msg Name="Mic4" Command="1" Channel="0" Data1="35" Data2="127"/>
+      <Msg Name="Mic5" Command="1" Channel="0" Data1="36" Data2="127"/>
+      <Msg Name="Mic6" Command="1" Channel="0" Data1="37" Data2="1"/>
+      <Msg Name="Mic7" Command="1" Channel="0" Data1="38" Data2="127"/>
+      <Msg Name="Mic8" Command="1" Channel="0" Data1="39" Data2="1"/>
+      <Msg Name="Mic9" Command="1" Channel="0" Data1="40" Data2="127"/>
+      <Msg Name="Mic10" Command="1" Channel="0" Data1="41" Data2="1"/>
+      <Msg Name="Mic11" Command="1" Channel="0" Data1="42" Data2="127"/>
+      <Msg Name="Mic12" Command="1" Channel="0" Data1="43" Data2="1"/>
+      <Msg Name="Mic13" Command="1" Channel="0" Data1="44" Data2="127"/>
+      <Msg Name="Mic14" Command="1" Channel="0" Data1="45" Data2="1"/>
+      <Msg Name="Mic15" Command="1" Channel="0" Data1="46" Data2="127"/>
+      <Msg Name="Mic16" Command="1" Channel="0" Data1="47" Data2="127"/>
+    </Cue>
+    <Cue>
+      <UID>182</UID>
+      <Type>6</Type>
+      <Enabled>-1</Enabled>
+      <Q>18-87</Q>
+      <Description>Text - Tak co, chlapci?</Description>
       <Exclusive Mode="0" FadeTime="200"/>
       <SecondTrigger Mode="0"/>
       <Ignore FadeAll="0" StopAll="0" PauseAll="0" ResumeAll="0"/>
@@ -4169,6 +4526,36 @@
       <Msg Name="Mic16" Command="1" Channel="0" Data1="47" Data2="127"/>
     </Cue>
     <Cue>
+      <UID>21</UID>
+      <Type>6</Type>
+      <Enabled>-1</Enabled>
+      <Q>22-15</Q>
+      <Description>MUTE ALL</Description>
+      <Exclusive Mode="0" FadeTime="200"/>
+      <SecondTrigger Mode="0"/>
+      <Ignore FadeAll="0" StopAll="0" PauseAll="0" ResumeAll="0"/>
+      <Wait Pre="0" Post="0"/>
+      <Appearance BGColour="000000" FontColour="FFFFFF"/>
+      <Advance Action="1" Target="0"/>
+      <Patch>0</Patch>
+      <Msg Name="Mic1" Command="1" Channel="0" Data1="32" Data2="127"/>
+      <Msg Name="Mic2" Command="1" Channel="0" Data1="33" Data2="127"/>
+      <Msg Name="Mic3" Command="1" Channel="0" Data1="34" Data2="127"/>
+      <Msg Name="Mic4" Command="1" Channel="0" Data1="35" Data2="127"/>
+      <Msg Name="Mic5" Command="1" Channel="0" Data1="36" Data2="127"/>
+      <Msg Name="Mic6" Command="1" Channel="0" Data1="37" Data2="127"/>
+      <Msg Name="Mic7" Command="1" Channel="0" Data1="38" Data2="127"/>
+      <Msg Name="Mic8" Command="1" Channel="0" Data1="39" Data2="127"/>
+      <Msg Name="Mic9" Command="1" Channel="0" Data1="40" Data2="127"/>
+      <Msg Name="Mic10" Command="1" Channel="0" Data1="41" Data2="127"/>
+      <Msg Name="Mic11" Command="1" Channel="0" Data1="42" Data2="127"/>
+      <Msg Name="Mic12" Command="1" Channel="0" Data1="43" Data2="127"/>
+      <Msg Name="Mic13" Command="1" Channel="0" Data1="44" Data2="127"/>
+      <Msg Name="Mic14" Command="1" Channel="0" Data1="45" Data2="127"/>
+      <Msg Name="Mic15" Command="1" Channel="0" Data1="46" Data2="127"/>
+      <Msg Name="Mic16" Command="1" Channel="0" Data1="47" Data2="127"/>
+    </Cue>
+    <Cue>
       <UID>111</UID>
       <Type>6</Type>
       <Enabled>-1</Enabled>
@@ -4181,7 +4568,97 @@
       <Appearance BGColour="000000" FontColour="FFFFFF"/>
       <Advance Action="1" Target="0"/>
       <Patch>0</Patch>
+      <Msg Name="Mic1" Command="1" Channel="0" Data1="32" Data2="127"/>
+      <Msg Name="Mic2" Command="1" Channel="0" Data1="33" Data2="1"/>
+      <Msg Name="Mic3" Command="1" Channel="0" Data1="34" Data2="1"/>
+      <Msg Name="Mic4" Command="1" Channel="0" Data1="35" Data2="1"/>
+      <Msg Name="Mic5" Command="1" Channel="0" Data1="36" Data2="127"/>
+      <Msg Name="Mic6" Command="1" Channel="0" Data1="37" Data2="127"/>
+      <Msg Name="Mic7" Command="1" Channel="0" Data1="38" Data2="127"/>
+      <Msg Name="Mic8" Command="1" Channel="0" Data1="39" Data2="127"/>
+      <Msg Name="Mic9" Command="1" Channel="0" Data1="40" Data2="127"/>
+      <Msg Name="Mic10" Command="1" Channel="0" Data1="41" Data2="127"/>
+      <Msg Name="Mic11" Command="1" Channel="0" Data1="42" Data2="127"/>
+      <Msg Name="Mic12" Command="1" Channel="0" Data1="43" Data2="127"/>
+      <Msg Name="Mic13" Command="1" Channel="0" Data1="44" Data2="127"/>
+      <Msg Name="Mic14" Command="1" Channel="0" Data1="45" Data2="127"/>
+      <Msg Name="Mic15" Command="1" Channel="0" Data1="46" Data2="127"/>
+      <Msg Name="Mic16" Command="1" Channel="0" Data1="47" Data2="127"/>
+    </Cue>
+    <Cue>
+      <UID>183</UID>
+      <Type>6</Type>
+      <Enabled>-1</Enabled>
+      <Q>22-30</Q>
+      <Description>Chodí horou Nikola</Description>
+      <Exclusive Mode="0" FadeTime="200"/>
+      <SecondTrigger Mode="0"/>
+      <Ignore FadeAll="0" StopAll="0" PauseAll="0" ResumeAll="0"/>
+      <Wait Pre="0" Post="0"/>
+      <Appearance BGColour="000000" FontColour="FFFFFF"/>
+      <Advance Action="1" Target="0"/>
+      <Patch>0</Patch>
       <Msg Name="Mic1" Command="1" Channel="0" Data1="32" Data2="1"/>
+      <Msg Name="Mic2" Command="1" Channel="0" Data1="33" Data2="1"/>
+      <Msg Name="Mic3" Command="1" Channel="0" Data1="34" Data2="1"/>
+      <Msg Name="Mic4" Command="1" Channel="0" Data1="35" Data2="1"/>
+      <Msg Name="Mic5" Command="1" Channel="0" Data1="36" Data2="127"/>
+      <Msg Name="Mic6" Command="1" Channel="0" Data1="37" Data2="127"/>
+      <Msg Name="Mic7" Command="1" Channel="0" Data1="38" Data2="127"/>
+      <Msg Name="Mic8" Command="1" Channel="0" Data1="39" Data2="127"/>
+      <Msg Name="Mic9" Command="1" Channel="0" Data1="40" Data2="127"/>
+      <Msg Name="Mic10" Command="1" Channel="0" Data1="41" Data2="127"/>
+      <Msg Name="Mic11" Command="1" Channel="0" Data1="42" Data2="127"/>
+      <Msg Name="Mic12" Command="1" Channel="0" Data1="43" Data2="127"/>
+      <Msg Name="Mic13" Command="1" Channel="0" Data1="44" Data2="127"/>
+      <Msg Name="Mic14" Command="1" Channel="0" Data1="45" Data2="127"/>
+      <Msg Name="Mic15" Command="1" Channel="0" Data1="46" Data2="127"/>
+      <Msg Name="Mic16" Command="1" Channel="0" Data1="47" Data2="127"/>
+    </Cue>
+    <Cue>
+      <UID>184</UID>
+      <Type>6</Type>
+      <Enabled>-1</Enabled>
+      <Q>22-40</Q>
+      <Description>Chodí horou</Description>
+      <Exclusive Mode="0" FadeTime="200"/>
+      <SecondTrigger Mode="0"/>
+      <Ignore FadeAll="0" StopAll="0" PauseAll="0" ResumeAll="0"/>
+      <Wait Pre="0" Post="0"/>
+      <Appearance BGColour="000000" FontColour="FFFFFF"/>
+      <Advance Action="1" Target="0"/>
+      <Patch>0</Patch>
+      <Msg Name="Mic1" Command="1" Channel="0" Data1="32" Data2="127"/>
+      <Msg Name="Mic2" Command="1" Channel="0" Data1="33" Data2="1"/>
+      <Msg Name="Mic3" Command="1" Channel="0" Data1="34" Data2="1"/>
+      <Msg Name="Mic4" Command="1" Channel="0" Data1="35" Data2="1"/>
+      <Msg Name="Mic5" Command="1" Channel="0" Data1="36" Data2="127"/>
+      <Msg Name="Mic6" Command="1" Channel="0" Data1="37" Data2="127"/>
+      <Msg Name="Mic7" Command="1" Channel="0" Data1="38" Data2="127"/>
+      <Msg Name="Mic8" Command="1" Channel="0" Data1="39" Data2="127"/>
+      <Msg Name="Mic9" Command="1" Channel="0" Data1="40" Data2="127"/>
+      <Msg Name="Mic10" Command="1" Channel="0" Data1="41" Data2="127"/>
+      <Msg Name="Mic11" Command="1" Channel="0" Data1="42" Data2="127"/>
+      <Msg Name="Mic12" Command="1" Channel="0" Data1="43" Data2="127"/>
+      <Msg Name="Mic13" Command="1" Channel="0" Data1="44" Data2="127"/>
+      <Msg Name="Mic14" Command="1" Channel="0" Data1="45" Data2="127"/>
+      <Msg Name="Mic15" Command="1" Channel="0" Data1="46" Data2="127"/>
+      <Msg Name="Mic16" Command="1" Channel="0" Data1="47" Data2="127"/>
+    </Cue>
+    <Cue>
+      <UID>190</UID>
+      <Type>6</Type>
+      <Enabled>-1</Enabled>
+      <Q>22-45</Q>
+      <Description>Chodí horou - Jen Eržika</Description>
+      <Exclusive Mode="0" FadeTime="200"/>
+      <SecondTrigger Mode="0"/>
+      <Ignore FadeAll="0" StopAll="0" PauseAll="0" ResumeAll="0"/>
+      <Wait Pre="0" Post="0"/>
+      <Appearance BGColour="000000" FontColour="FFFFFF"/>
+      <Advance Action="1" Target="0"/>
+      <Patch>0</Patch>
+      <Msg Name="Mic1" Command="1" Channel="0" Data1="32" Data2="127"/>
       <Msg Name="Mic2" Command="1" Channel="0" Data1="33" Data2="1"/>
       <Msg Name="Mic3" Command="1" Channel="0" Data1="34" Data2="1"/>
       <Msg Name="Mic4" Command="1" Channel="0" Data1="35" Data2="1"/>
@@ -4524,7 +5001,7 @@
       <Msg Name="Mic9" Command="1" Channel="0" Data1="40" Data2="127"/>
       <Msg Name="Mic10" Command="1" Channel="0" Data1="41" Data2="127"/>
       <Msg Name="Mic11" Command="1" Channel="0" Data1="42" Data2="127"/>
-      <Msg Name="Mic12" Command="1" Channel="0" Data1="43" Data2="1"/>
+      <Msg Name="Mic12" Command="1" Channel="0" Data1="43" Data2="127"/>
       <Msg Name="Mic13" Command="1" Channel="0" Data1="44" Data2="127"/>
       <Msg Name="Mic14" Command="1" Channel="0" Data1="45" Data2="127"/>
       <Msg Name="Mic15" Command="1" Channel="0" Data1="46" Data2="127"/>
@@ -4634,7 +5111,37 @@
       <Advance Action="1" Target="0"/>
       <Patch>0</Patch>
       <Msg Name="Mic1" Command="1" Channel="0" Data1="32" Data2="127"/>
-      <Msg Name="Mic2" Command="1" Channel="0" Data1="33" Data2="1"/>
+      <Msg Name="Mic2" Command="1" Channel="0" Data1="33" Data2="127"/>
+      <Msg Name="Mic3" Command="1" Channel="0" Data1="34" Data2="127"/>
+      <Msg Name="Mic4" Command="1" Channel="0" Data1="35" Data2="127"/>
+      <Msg Name="Mic5" Command="1" Channel="0" Data1="36" Data2="127"/>
+      <Msg Name="Mic6" Command="1" Channel="0" Data1="37" Data2="127"/>
+      <Msg Name="Mic7" Command="1" Channel="0" Data1="38" Data2="1"/>
+      <Msg Name="Mic8" Command="1" Channel="0" Data1="39" Data2="1"/>
+      <Msg Name="Mic9" Command="1" Channel="0" Data1="40" Data2="127"/>
+      <Msg Name="Mic10" Command="1" Channel="0" Data1="41" Data2="127"/>
+      <Msg Name="Mic11" Command="1" Channel="0" Data1="42" Data2="127"/>
+      <Msg Name="Mic12" Command="1" Channel="0" Data1="43" Data2="127"/>
+      <Msg Name="Mic13" Command="1" Channel="0" Data1="44" Data2="127"/>
+      <Msg Name="Mic14" Command="1" Channel="0" Data1="45" Data2="127"/>
+      <Msg Name="Mic15" Command="1" Channel="0" Data1="46" Data2="127"/>
+      <Msg Name="Mic16" Command="1" Channel="0" Data1="47" Data2="127"/>
+    </Cue>
+    <Cue>
+      <UID>192</UID>
+      <Type>6</Type>
+      <Enabled>-1</Enabled>
+      <Q>26-15</Q>
+      <Description>Text s Eržikou</Description>
+      <Exclusive Mode="0" FadeTime="200"/>
+      <SecondTrigger Mode="0"/>
+      <Ignore FadeAll="0" StopAll="0" PauseAll="0" ResumeAll="0"/>
+      <Wait Pre="0" Post="0"/>
+      <Appearance BGColour="000000" FontColour="FFFFFF"/>
+      <Advance Action="1" Target="0"/>
+      <Patch>0</Patch>
+      <Msg Name="Mic1" Command="1" Channel="0" Data1="32" Data2="127"/>
+      <Msg Name="Mic2" Command="1" Channel="0" Data1="33" Data2="127"/>
       <Msg Name="Mic3" Command="1" Channel="0" Data1="34" Data2="127"/>
       <Msg Name="Mic4" Command="1" Channel="0" Data1="35" Data2="127"/>
       <Msg Name="Mic5" Command="1" Channel="0" Data1="36" Data2="127"/>
@@ -4694,12 +5201,12 @@
       <Advance Action="1" Target="0"/>
       <Patch>0</Patch>
       <Msg Name="Mic1" Command="1" Channel="0" Data1="32" Data2="127"/>
-      <Msg Name="Mic2" Command="1" Channel="0" Data1="33" Data2="1"/>
+      <Msg Name="Mic2" Command="1" Channel="0" Data1="33" Data2="127"/>
       <Msg Name="Mic3" Command="1" Channel="0" Data1="34" Data2="127"/>
       <Msg Name="Mic4" Command="1" Channel="0" Data1="35" Data2="127"/>
       <Msg Name="Mic5" Command="1" Channel="0" Data1="36" Data2="127"/>
       <Msg Name="Mic6" Command="1" Channel="0" Data1="37" Data2="1"/>
-      <Msg Name="Mic7" Command="1" Channel="0" Data1="38" Data2="1"/>
+      <Msg Name="Mic7" Command="1" Channel="0" Data1="38" Data2="127"/>
       <Msg Name="Mic8" Command="1" Channel="0" Data1="39" Data2="1"/>
       <Msg Name="Mic9" Command="1" Channel="0" Data1="40" Data2="127"/>
       <Msg Name="Mic10" Command="1" Channel="0" Data1="41" Data2="127"/>
@@ -4771,6 +5278,36 @@
       <Msg Name="Mic16" Command="1" Channel="0" Data1="47" Data2="127"/>
     </Cue>
     <Cue>
+      <UID>191</UID>
+      <Type>6</Type>
+      <Enabled>-1</Enabled>
+      <Q>26-65</Q>
+      <Description>MUTE ALL</Description>
+      <Exclusive Mode="0" FadeTime="200"/>
+      <SecondTrigger Mode="0"/>
+      <Ignore FadeAll="0" StopAll="0" PauseAll="0" ResumeAll="0"/>
+      <Wait Pre="0" Post="0"/>
+      <Appearance BGColour="000000" FontColour="FFFFFF"/>
+      <Advance Action="1" Target="0"/>
+      <Patch>0</Patch>
+      <Msg Name="Mic1" Command="1" Channel="0" Data1="32" Data2="127"/>
+      <Msg Name="Mic2" Command="1" Channel="0" Data1="33" Data2="127"/>
+      <Msg Name="Mic3" Command="1" Channel="0" Data1="34" Data2="127"/>
+      <Msg Name="Mic4" Command="1" Channel="0" Data1="35" Data2="127"/>
+      <Msg Name="Mic5" Command="1" Channel="0" Data1="36" Data2="127"/>
+      <Msg Name="Mic6" Command="1" Channel="0" Data1="37" Data2="127"/>
+      <Msg Name="Mic7" Command="1" Channel="0" Data1="38" Data2="127"/>
+      <Msg Name="Mic8" Command="1" Channel="0" Data1="39" Data2="127"/>
+      <Msg Name="Mic9" Command="1" Channel="0" Data1="40" Data2="127"/>
+      <Msg Name="Mic10" Command="1" Channel="0" Data1="41" Data2="127"/>
+      <Msg Name="Mic11" Command="1" Channel="0" Data1="42" Data2="127"/>
+      <Msg Name="Mic12" Command="1" Channel="0" Data1="43" Data2="127"/>
+      <Msg Name="Mic13" Command="1" Channel="0" Data1="44" Data2="127"/>
+      <Msg Name="Mic14" Command="1" Channel="0" Data1="45" Data2="127"/>
+      <Msg Name="Mic15" Command="1" Channel="0" Data1="46" Data2="127"/>
+      <Msg Name="Mic16" Command="1" Channel="0" Data1="47" Data2="127"/>
+    </Cue>
+    <Cue>
       <UID>129</UID>
       <Type>6</Type>
       <Enabled>-1</Enabled>
@@ -4787,7 +5324,7 @@
       <Msg Name="Mic2" Command="1" Channel="0" Data1="33" Data2="127"/>
       <Msg Name="Mic3" Command="1" Channel="0" Data1="34" Data2="127"/>
       <Msg Name="Mic4" Command="1" Channel="0" Data1="35" Data2="127"/>
-      <Msg Name="Mic5" Command="1" Channel="0" Data1="36" Data2="1"/>
+      <Msg Name="Mic5" Command="1" Channel="0" Data1="36" Data2="127"/>
       <Msg Name="Mic6" Command="1" Channel="0" Data1="37" Data2="127"/>
       <Msg Name="Mic7" Command="1" Channel="0" Data1="38" Data2="127"/>
       <Msg Name="Mic8" Command="1" Channel="0" Data1="39" Data2="127"/>
@@ -4853,42 +5390,12 @@
       <Msg Name="Mic8" Command="1" Channel="0" Data1="39" Data2="127"/>
       <Msg Name="Mic9" Command="1" Channel="0" Data1="40" Data2="1"/>
       <Msg Name="Mic10" Command="1" Channel="0" Data1="41" Data2="1"/>
-      <Msg Name="Mic11" Command="1" Channel="0" Data1="42" Data2="1"/>
+      <Msg Name="Mic11" Command="1" Channel="0" Data1="42" Data2="127"/>
       <Msg Name="Mic12" Command="1" Channel="0" Data1="43" Data2="1"/>
       <Msg Name="Mic13" Command="1" Channel="0" Data1="44" Data2="127"/>
       <Msg Name="Mic14" Command="1" Channel="0" Data1="45" Data2="1"/>
       <Msg Name="Mic15" Command="1" Channel="0" Data1="46" Data2="1"/>
       <Msg Name="Mic16" Command="1" Channel="0" Data1="47" Data2="1"/>
-    </Cue>
-    <Cue>
-      <UID>21</UID>
-      <Type>6</Type>
-      <Enabled>-1</Enabled>
-      <Q>27-0</Q>
-      <Description>MUTE ALL</Description>
-      <Exclusive Mode="0" FadeTime="200"/>
-      <SecondTrigger Mode="0"/>
-      <Ignore FadeAll="0" StopAll="0" PauseAll="0" ResumeAll="0"/>
-      <Wait Pre="0" Post="0"/>
-      <Appearance BGColour="000000" FontColour="FFFFFF"/>
-      <Advance Action="1" Target="0"/>
-      <Patch>0</Patch>
-      <Msg Name="Mic1" Command="1" Channel="0" Data1="32" Data2="127"/>
-      <Msg Name="Mic2" Command="1" Channel="0" Data1="33" Data2="127"/>
-      <Msg Name="Mic3" Command="1" Channel="0" Data1="34" Data2="127"/>
-      <Msg Name="Mic4" Command="1" Channel="0" Data1="35" Data2="127"/>
-      <Msg Name="Mic5" Command="1" Channel="0" Data1="36" Data2="127"/>
-      <Msg Name="Mic6" Command="1" Channel="0" Data1="37" Data2="127"/>
-      <Msg Name="Mic7" Command="1" Channel="0" Data1="38" Data2="127"/>
-      <Msg Name="Mic8" Command="1" Channel="0" Data1="39" Data2="127"/>
-      <Msg Name="Mic9" Command="1" Channel="0" Data1="40" Data2="127"/>
-      <Msg Name="Mic10" Command="1" Channel="0" Data1="41" Data2="127"/>
-      <Msg Name="Mic11" Command="1" Channel="0" Data1="42" Data2="127"/>
-      <Msg Name="Mic12" Command="1" Channel="0" Data1="43" Data2="127"/>
-      <Msg Name="Mic13" Command="1" Channel="0" Data1="44" Data2="127"/>
-      <Msg Name="Mic14" Command="1" Channel="0" Data1="45" Data2="127"/>
-      <Msg Name="Mic15" Command="1" Channel="0" Data1="46" Data2="127"/>
-      <Msg Name="Mic16" Command="1" Channel="0" Data1="47" Data2="127"/>
     </Cue>
     <Cue>
       <UID>130</UID>
